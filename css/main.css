@@ -1,0 +1,347 @@
+@font-face{
+    font-family: 'Arial-BoldMT', sans-serif;
+    src: url(fonts/49025597.ttf);
+    src: url(fonts/Arial-BoldMT.otf);
+}
+
+/* Стилизую хедер */
+
+body{
+    width: 1366px;
+    color: #333333;
+    font-family: 'Arial-BoldMT', sans-serif;
+    overflow-x: hidden;
+}
+
+h2,h3,a, span, p{
+    font-family: 'Arial-BoldMT', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+button {
+    outline-color: #fff;
+}
+
+p{
+    margin-top: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 29px;
+}
+
+.menu-items {
+    display: block;
+}
+
+.menu-items:first-child {
+    margin-right: 52px;
+}
+
+.menu-items:nth-child(2) {
+    margin-right: 28px;
+}
+
+.menu-items:nth-child(3) {
+    margin-right: 26px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.menu-items_links {
+    text-decoration: none;
+    color:black;
+    font-style: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: 'Arial-BoldMT', sans-serif;
+}
+
+.menu-items_links:hover{
+    opacity: 0.6;
+}
+
+.section-title{
+    margin-top: 0px;
+    font-size: 18px;
+    margin-left: 39px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 583px;
+}
+
+/* Блок "Главное" */
+
+.main-block{
+    position: relative;
+    margin-left: 40px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.greeting-title{
+    font-size: 27px;
+    position: absolute;
+    left:25px;
+    top: 26px;
+    margin: 0px;
+    font-family: 'Arial-BoldMT', sans-serif;
+}
+
+.greeting-description{
+    position: absolute;
+    font-size: 14px;
+    left: 25px;
+    top: 62px;
+    width: 360px;
+}
+
+/* Оформление погоды */
+
+.weather-inside,
+.weather-outside{
+    font-size: 14px;
+    color:#858585;
+    position: absolute
+}
+
+.weather-inside{
+    left: 25px;
+    top: 103px;
+}
+
+.weather-outside{
+    left: 105px;
+    top: 103px;
+}
+
+.weather-degrees-inside,
+.weather-degrees-outside{
+    font-size: 36px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.weather-degrees-inside{
+    left: 25px;
+    top: 123px;
+}
+
+.weather-degrees-outside{
+    left: 105px;
+    top: 123px;
+}
+
+/* правый блок с устройствами */
+
+.waiting-devices{
+    width: 200px;
+    position: absolute;
+    left: 410px;
+    top: 20px;
+}
+
+/* Philips Cooler */
+
+.device-icon{
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.device-block{
+    position: relative;
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+    background: #F7F7F7;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.device-name{
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    left: 15px;
+    top: 71px;
+    color:#333333;
+}
+
+.device-schedule{
+    position: absolute;
+    font-size: 12px;
+    color:#858585;
+    left: 15px;
+    top: 91px;
+}
+
+.device-name-xiaomi{
+    position: absolute;
+    left: 15px;
+    top: 54px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.selected-scripts-title{
+    display: inline-block;  
+    font-size: 18px bold;
+}
+
+.selected-scripts{
+    position: relative;
+    top: -283px;
+    margin-left: 26px;
+    border-radius: 20px;
+    height: 335px;
+    width: 645px;
+    display: inline-block;
+}
+
+.selected-scripts-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.scripts-list{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #F7F7F7;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;  
+}
+
+.scripts-list:hover{
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(197,186,186,0.50);
+}
+
+.selected-scripts-description{
+    font-weight: bold;
+    font-size: 14px;  
+}
+
+.all-light-off, .away, .corridor, .hot-bath, .warm-floor{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.all-light-off{
+    padding-right: 15px;
+}
+
+.hot-bath{
+    margin-bottom: 4.5px;
+}
+
+.sun{
+    margin-bottom: 15px;
+}
+
+.time{
+    margin-bottom: 31px;
+}
+
+.corridor{
+    padding-right: 78px;
+}
+
+.temperature{
+    margin-bottom: 12px;
+}
+
+.start{
+    font-size: 12px;
+    color: #858585;
+    padding-left: 15px;
+}
+
+.floor{
+    margin-bottom: 15px;
+}
+
+.warm-floor{
+    padding-right: 15px;
+}
+
+.selected-devices{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    position: absolute;
+    top: 520px;
+    
+}
+
+.selected-devices-title{
+    font-size: 18px;
+}
+
+.selected-devices-title{
+    margin-right: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+}
+
+.devices-category-btn{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+    background: #f7f7f7;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.devices-category-btn:hover{
+    background: #FFD93E;
+}
+
+.devices-category{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 573px;
+    max-width: 100%;
+}
+
+.devices-category>li{
+    margin-right: 15px;
+}
+
+.footer{
+    
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-links{
+    font-size: 12px;
+    color: #858585;
+}
+
+.footer-nav>li{
+    margin-right: 15px;
+}
